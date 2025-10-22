@@ -1,96 +1,270 @@
 {
-  "products": [
+  "courses": [
     {
-      "id": 1,
-      "name": "Iphone 14",
-      "price": 20000000,
-      "image": "img/iphone.jpg",
-      "category": "điện thoại",
-      "hot": true,
-      "description": "iPhone 14 với thiết kế sang trọng, màn hình Super Retina XDR 6.1 inch, chip A15 Bionic mạnh mẽ, camera kép cải tiến và hỗ trợ 5G."
+      "id": "1700000000000",
+      "name": "Javascript nâng cao",
+      "description": "Khóa học nâng cao về Javascript, ES6+, DOM, Async..."
     },
     {
-      "id": 2,
-      "name": "Samsung S23",
-      "price": 18000000,
-      "image": "img/samsung.jpg",
-      "category": "điện thoại",
-      "hot": false,
-      "description": "Samsung Galaxy S23 sở hữu màn hình Dynamic AMOLED 2X, Snapdragon 8 Gen 2 mạnh mẽ, camera 50MP chụp đêm xuất sắc."
+      "id": "1700000000001",
+      "name": "HTML & CSS",
+      "description": "Khóa học nền tảng về thiết kế web với HTML5, CSS3"
+    }
+  ],
+  "questions": [
+    {
+      "id": "1",
+      "courseId": "1700000000000",
+      "question": "Trong JavaScript, 'let' và 'var' khác nhau ở điểm nào?",
+      "options": [
+        "Phạm vi block scope",
+        "Hoisting giống nhau",
+        "Khai báo lại nhiều lần",
+        "Chỉ dùng trong vòng lặp"
+      ],
+      "answer": 0
     },
     {
-      "id": 3,
-      "name": "Xiaomi 13",
-      "price": 15000000,
-      "image": "img/xiaomi.jpg",
-      "category": "điện thoại",
-      "hot": false,
-      "description": "Xiaomi 13 trang bị Snapdragon 8 Gen 2, màn hình AMOLED 120Hz, hệ thống camera Leica ấn tượng, pin 4500mAh sạc nhanh 67W."
+      "id": "2",
+      "courseId": "1700000000000",
+      "question": "Promise dùng để làm gì?",
+      "options": [
+        "Quản lý bất đồng bộ",
+        "Định nghĩa biến",
+        "Thao tác DOM",
+        "Tạo vòng lặp"
+      ],
+      "answer": 0
     },
     {
-      "id": 4,
-      "name": "Vivo X30",
-      "price": 7000000,
-      "image": "img/vivo.jpg",
-      "category": "điện thoại",
-      "hot": true,
-      "description": "Vivo X30 với thiết kế trẻ trung, màn hình AMOLED 6.44 inch, camera 64MP, chip Exynos 980 và pin 4350mAh."
+      "id": "3",
+      "courseId": "1700000000000",
+      "question": "Arrow function KHÔNG có gì?",
+      "options": [
+        "this riêng",
+        "Cú pháp ngắn gọn",
+        "return ngầm định",
+        "Tham số"
+      ],
+      "answer": 0
     },
     {
-      "id": 5,
-      "name": "Macbook Pro 2023",
-      "price": 55000000,
-      "image": "img/macbook.jpg",
-      "category": "laptop",
-      "hot": true,
-      "description": "MacBook Pro 2023 dùng chip Apple M2 Pro, màn hình Liquid Retina XDR, hiệu năng mạnh mẽ, pin lâu và thiết kế sang trọng."
+      "id": "4",
+      "courseId": "1700000000000",
+      "question": "Array method nào trả về mảng mới?",
+      "options": [
+        "map()",
+        "forEach()",
+        "push()",
+        "splice()"
+      ],
+      "answer": 0
     },
     {
-      "id": 6,
-      "name": "Dell XPS 13",
-      "price": 35000000,
-      "image": "img/dell.jpg",
-      "category": "laptop",
-      "hot": false,
-      "description": "Dell XPS 13 với màn hình InfinityEdge 13.4 inch, Intel Core thế hệ 12, thiết kế mỏng nhẹ, pin bền bỉ, phù hợp cho công việc."
+      "id": "5",
+      "courseId": "1700000000000",
+      "question": "Async/Await giúp gì?",
+      "options": [
+        "Viết code bất đồng bộ dễ đọc hơn",
+        "Định nghĩa biến",
+        "Tạo class",
+        "Tối ưu bộ nhớ"
+      ],
+      "answer": 0
     },
     {
-      "id": 7,
-      "name": "Asus Zenbook",
-      "price": 25000000,
-      "image": "img/asus.jpg",
-      "category": "laptop",
-      "hot": false,
-      "description": "Asus ZenBook với thiết kế siêu mỏng, màn hình OLED 14 inch, CPU Intel thế hệ mới, bàn phím NumberPad độc đáo."
+      "id": "6",
+      "courseId": "1700000000000",
+      "question": "Destructuring dùng để?",
+      "options": [
+        "Gán nhanh từ object/array",
+        "Tạo biến toàn cục",
+        "Tạo hàm",
+        "Xuất module"
+      ],
+      "answer": 0
     },
     {
-      "id": 8,
-      "name": "HP Envy",
-      "price": 20000000,
-      "image": "img/hp.jpg",
-      "category": "laptop",
-      "hot": true,
-      "description": "HP Envy sở hữu thiết kế kim loại sang trọng, màn hình 15.6 inch Full HD, hiệu năng mạnh mẽ với Intel Core i7, âm thanh Bang & Olufsen."
+      "id": "7",
+      "courseId": "1700000000000",
+      "question": "Set khác Array ở điểm nào?",
+      "options": [
+        "Có index",
+        "Không chứa phần tử trùng",
+        "Lặp theo key",
+        "Không thể xoá"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "8",
+      "courseId": "1700000000000",
+      "question": "Spread operator (...) dùng để?",
+      "options": [
+        "Tạo vòng lặp",
+        "Định nghĩa hàm",
+        "Tạo class",
+        "Sao chép/ghép mảng, object"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "9",
+      "courseId": "1700000000000",
+      "question": "Module trong JS import bằng?",
+      "options": [
+        "require()",
+        "include()",
+        "use ...",
+        "import ... from ..."
+      ],
+      "answer": 3
+    },
+    {
+      "id": "10",
+      "courseId": "1700000000000",
+      "question": "Trong DOM, querySelector trả về?",
+      "options": [
+        "Tất cả phần tử",
+        "Phần tử đầu tiên khớp selector",
+        "HTMLCollection",
+        "NodeList"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "11",
+      "courseId": "1700000000001",
+      "question": "Thẻ HTML nào tạo liên kết?",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<url>"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "12",
+      "courseId": "1700000000001",
+      "question": "Thuộc tính CSS thay đổi màu chữ?",
+      "options": [
+        "font-size",
+        "color",
+        "background-color",
+        "text-decoration"
+      ],
+      "answer": 1
+    },
+    {
+      "id": "13",
+      "courseId": "1700000000001",
+      "question": "Thẻ <img> cần thuộc tính nào bắt buộc?",
+      "options": [
+        "href",
+        "alt",
+        "id",
+        "src"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "14",
+      "courseId": "1700000000001",
+      "question": "Thẻ nào tạo bảng trong HTML?",
+      "options": [
+        "<div>",
+        "<grid>",
+        "<section>",
+        "<table>"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "15",
+      "courseId": "1700000000001",
+      "question": "CSS selector '.menu li a' chọn gì?",
+      "options": [
+        "Li trong a",
+        "Class menu",
+        "Thẻ a trong li của class menu",
+        "Tất cả a"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "16",
+      "courseId": "1700000000001",
+      "question": "Thuộc tính CSS nào làm chữ in đậm?",
+      "options": [
+        "font-style",
+        "text-decoration",
+        "bold",
+        "font-weight"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "17",
+      "courseId": "1700000000001",
+      "question": "Flexbox dùng thuộc tính nào để căn ngang?",
+      "options": [
+        "align-items",
+        "display",
+        "position",
+        "justify-content"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "18",
+      "courseId": "1700000000001",
+      "question": "Thuộc tính nào để căn giữa text?",
+      "options": [
+        "vertical-align",
+        "align",
+        "justify",
+        "text-align"
+      ],
+      "answer": 3
+    },
+    {
+      "id": "19",
+      "courseId": "1700000000001",
+      "question": "Trong HTML5, thẻ nào mang ý nghĩa semantic?",
+      "options": [
+        "<div>",
+        "<span>",
+        "<header>",
+        "<b>"
+      ],
+      "answer": 2
+    },
+    {
+      "id": "20",
+      "courseId": "1700000000001",
+      "question": "Thuộc tính CSS nào để thay đổi nền?",
+      "options": [
+        "color",
+        "border",
+        "fill",
+        "background-color"
+      ],
+      "answer": 3
     }
   ],
   "users": [
     {
-      "id": 1,
-      "name": "Nguyen Van A",
-      "email": "vana@example.com",
-      "password": "123456"
+      "id": "1",
+      "email": "student1@example.com",
+      "password": "123456",
+      "fullname": "Nguyen Van A"
     },
     {
-      "id": 2,
-      "name": "Tran Thi B",
-      "email": "thib@example.com",
-      "password": "abcdef"
-    },
-    {
-      "id": 3,
-      "name": "Le Van C",
-      "email": "vanc@example.com",
-      "password": "qwerty"
+      "id": "2",
+      "email": "teacher1@example.com",
+      "password": "abcdef",
+      "fullname": "Tran Thi B"
     }
   ]
 }
