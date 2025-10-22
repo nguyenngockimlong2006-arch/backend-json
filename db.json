@@ -1,270 +1,753 @@
 {
-  "courses": [
+  "products": [
     {
-      "id": "1700000000000",
-      "name": "Javascript nâng cao",
-      "description": "Khóa học nâng cao về Javascript, ES6+, DOM, Async..."
-    },
-    {
-      "id": "1700000000001",
-      "name": "HTML & CSS",
-      "description": "Khóa học nền tảng về thiết kế web với HTML5, CSS3"
-    }
-  ],
-  "questions": [
-    {
-      "id": "1",
-      "courseId": "1700000000000",
-      "question": "Trong JavaScript, 'let' và 'var' khác nhau ở điểm nào?",
-      "options": [
-        "Phạm vi block scope",
-        "Hoisting giống nhau",
-        "Khai báo lại nhiều lần",
-        "Chỉ dùng trong vòng lặp"
+      "id": 1,
+      "name": "iPhone 17 Pro",
+      "brand": "Apple",
+      "category": "Điện thoại",
+      "image": "image/ip17.jpg",
+      "price": 32990000,
+      "rating": 4.8,
+      "reviews": 123,
+      "description": "iPhone 17 Pro hiệu năng mạnh mẽ, camera chất lượng mang đến trải nghiệm tuyệt vời. Màn hình Super Retina XDR 6.1 inch với chip A19 Pro mạnh mẽ nhất từ Apple. Thiết kế titan cao cấp, chống nước IP68, hỗ trợ sạc không dây MagSafe.",
+      "screenSize": "6.1 inch",
+      "chip": "A19 Pro",
+      "ram": "8GB",
+      "storageOptions": [
+        {"size": "256GB", "price": 32990000},
+        {"size": "512GB", "price": 36990000},
+        {"size": "1TB", "price": 42990000}
       ],
-      "answer": 0
-    },
-    {
-      "id": "2",
-      "courseId": "1700000000000",
-      "question": "Promise dùng để làm gì?",
-      "options": [
-        "Quản lý bất đồng bộ",
-        "Định nghĩa biến",
-        "Thao tác DOM",
-        "Tạo vòng lặp"
+      "colors": [
+        {"name": "Titanium Tự nhiên", "code": "#E5E5E5", "image": "image/ip17.jpg"},
+        {"name": "Titanium Xanh", "code": "#2C5C7D", "image": "image/ip17t1.webp"},
+        {"name": "Titanium Trắng", "code": "#FFFFFF", "image": "image/ip17t2.webp"},
+        {"name": "Titanium Đen", "code": "#1C1C1E", "image": "image/ip17t3.webp"}
       ],
-      "answer": 0
-    },
-    {
-      "id": "3",
-      "courseId": "1700000000000",
-      "question": "Arrow function KHÔNG có gì?",
-      "options": [
-        "this riêng",
-        "Cú pháp ngắn gọn",
-        "return ngầm định",
-        "Tham số"
+      "specifications": {
+        "Màn hình": "6.1\" Super Retina XDR, 2556 x 1179 pixels, 460 ppi",
+        "CPU": "A19 Pro chip 3nm",
+        "RAM": "8GB LPDDR5",
+        "ROM": "256GB/512GB/1TB NVMe SSD",
+        "Camera sau": "48MP Main (f/1.78) + 12MP Ultra Wide (f/2.2) + 12MP Telephoto (f/2.8)",
+        "Camera trước": "12MP TrueDepth (f/1.9)",
+        "Pin": "3274mAh, Sạc nhanh 20W, Sạc không dây 15W",
+        "Hệ điều hành": "iOS 18",
+        "Kết nối": "5G, Wi-Fi 6E, Bluetooth 5.3, NFC, GPS",
+        "Chống nước": "IP68",
+        "Kích thước": "146.6 x 70.6 x 8.3 mm",
+        "Trọng lượng": "187g",
+        "Màu sắc": "Titanium Tự nhiên, Titanium Xanh, Titanium Trắng, Titanium Đen"
+      },
+      "thumbnails": [
+        "image/ip17t1.webp",
+        "image/ip17t2.webp",
+        "image/ip17t3.webp"
       ],
-      "answer": 0
-    },
-    {
-      "id": "4",
-      "courseId": "1700000000000",
-      "question": "Array method nào trả về mảng mới?",
-      "options": [
-        "map()",
-        "forEach()",
-        "push()",
-        "splice()"
+      "features": [
+        "Chip A19 Pro mạnh mẽ nhất từ Apple",
+        "Camera ProRAW và ProRes video",
+        "Màn hình Super Retina XDR sắc nét",
+        "Thiết kế titan cao cấp, bền bỉ",
+        "Hỗ trợ 5G tốc độ cao",
+        "Sạc không dây MagSafe",
+        "Face ID bảo mật cao"
       ],
-      "answer": 0
+      "warranty": "12 tháng bảo hành chính hãng",
+      "accessories": [
+        "Cáp sạc USB-C",
+        "Tài liệu hướng dẫn",
+        "Khay SIM"
+      ]
     },
     {
-      "id": "5",
-      "courseId": "1700000000000",
-      "question": "Async/Await giúp gì?",
-      "options": [
-        "Viết code bất đồng bộ dễ đọc hơn",
-        "Định nghĩa biến",
-        "Tạo class",
-        "Tối ưu bộ nhớ"
+      "id": 2,
+      "name": "iPhone 17 Pro Max",
+      "brand": "Apple",
+      "category": "Điện thoại",
+      "image": "image/17prm.png",
+      "price": 36990000,
+      "rating": 4.6,
+      "reviews": 210,
+      "description": "iPhone 17 Pro Max màn hình lớn nhất với hiệu năng đỉnh cao. Màn hình Super Retina XDR 6.7 inch và chip A19 Pro mang đến trải nghiệm làm việc và giải trí hoàn hảo. Pin trâu hơn, camera zoom xa hơn.",
+      "screenSize": "6.7 inch",
+      "chip": "A19 Pro",
+      "ram": "12GB",
+      "storageOptions": [
+        {"size": "256GB", "price": 36990000},
+        {"size": "512GB", "price": 40990000},
+        {"size": "1TB", "price": 46990000}
       ],
-      "answer": 0
-    },
-    {
-      "id": "6",
-      "courseId": "1700000000000",
-      "question": "Destructuring dùng để?",
-      "options": [
-        "Gán nhanh từ object/array",
-        "Tạo biến toàn cục",
-        "Tạo hàm",
-        "Xuất module"
+      "colors": [
+        {"name": "Titanium Tự nhiên", "code": "#E5E5E5", "image": "image/17prm.png"},
+        {"name": "Titanium Xanh", "code": "#2C5C7D", "image": "image/ip14.webp"},
+        {"name": "Titanium Trắng", "code": "#FFFFFF", "image": "image/ip71.webp"},
+        {"name": "Titanium Đen", "code": "#1C1C1E", "image": "image/ipn.webp"}
       ],
-      "answer": 0
-    },
-    {
-      "id": "7",
-      "courseId": "1700000000000",
-      "question": "Set khác Array ở điểm nào?",
-      "options": [
-        "Có index",
-        "Không chứa phần tử trùng",
-        "Lặp theo key",
-        "Không thể xoá"
+      "specifications": {
+        "Màn hình": "6.7\" Super Retina XDR, 2796 x 1290 pixels, 460 ppi",
+        "CPU": "A19 Pro chip 3nm",
+        "RAM": "12GB LPDDR5",
+        "ROM": "256GB/512GB/1TB NVMe SSD",
+        "Camera sau": "48MP Main (f/1.78) + 12MP Ultra Wide (f/2.2) + 12MP Telephoto (f/2.8) 5x",
+        "Camera trước": "12MP TrueDepth (f/1.9)",
+        "Pin": "4422mAh, Sạc nhanh 27W, Sạc không dây 15W",
+        "Hệ điều hành": "iOS 18",
+        "Kết nối": "5G, Wi-Fi 6E, Bluetooth 5.3, NFC, GPS",
+        "Chống nước": "IP68",
+        "Kích thước": "159.9 x 76.7 x 8.3 mm",
+        "Trọng lượng": "221g",
+        "Màu sắc": "Titanium Tự nhiên, Titanium Xanh, Titanium Trắng, Titanium Đen"
+      },
+      "thumbnails": [
+        "image/ip14.webp",
+        "image/ip71.webp",
+        "image/ipn.webp"
       ],
-      "answer": 1
-    },
-    {
-      "id": "8",
-      "courseId": "1700000000000",
-      "question": "Spread operator (...) dùng để?",
-      "options": [
-        "Tạo vòng lặp",
-        "Định nghĩa hàm",
-        "Tạo class",
-        "Sao chép/ghép mảng, object"
+      "features": [
+        "Màn hình lớn nhất 6.7 inch Super Retina XDR",
+        "Camera zoom xa 5x với ổn định quang học",
+        "Pin trâu 4422mAh, dùng cả ngày",
+        "Chip A19 Pro mạnh mẽ, 12GB RAM",
+        "Thiết kế titan cao cấp, bền bỉ",
+        "Hỗ trợ 5G tốc độ cao",
+        "Sạc không dây MagSafe",
+        "Face ID bảo mật cao"
       ],
-      "answer": 3
+      "warranty": "12 tháng bảo hành chính hãng",
+      "accessories": [
+        "Cáp sạc USB-C",
+        "Tài liệu hướng dẫn",
+        "Khay SIM"
+      ]
     },
     {
-      "id": "9",
-      "courseId": "1700000000000",
-      "question": "Module trong JS import bằng?",
-      "options": [
-        "require()",
-        "include()",
-        "use ...",
-        "import ... from ..."
+      "id": 3,
+      "name": "iPhone 16",
+      "brand": "Apple",
+      "category": "Điện thoại",
+      "image": "image/ip16.webp",
+      "price": 24990000,
+      "rating": 4.7,
+      "reviews": 98,
+      "description": "iPhone 16 với thời lượng pin tốt.",
+      "specifications": {
+        "Màn hình": "6.1\"",
+        "CPU": "A18",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/ip16.webp",
+        "image/ip17t1.webp",
+        "image/ip17t2.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "iPhone 14",
+      "brand": "Apple",
+      "category": "Điện thoại",
+      "image": "image/ip14.webp",
+      "price": 18990000,
+      "rating": 4.5,
+      "reviews": 156,
+      "description": "Phiên bản iPhone 14 ổn định.",
+      "specifications": {
+        "Màn hình": "6.1\"",
+        "CPU": "A15",
+        "RAM": "6GB",
+        "ROM": "128GB"
+      },
+      "thumbnails": [
+        "image/ip14.webp",
+        "image/ip71.webp",
+        "image/ipn.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Samsung Galaxy S24",
+      "brand": "Samsung",
+      "category": "Điện thoại",
+      "image": "image/ssgalaxy.webp",
+      "price": 21990000,
+      "rating": 4.6,
+      "reviews": 187,
+      "description": "Galaxy S24 với camera AI thông minh.",
+      "specifications": {
+        "Màn hình": "6.2\"",
+        "CPU": "Snapdragon 8 Gen 3",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/samsung.webp",
+        "image/ssgalaxy.webp",
+        "image/ssj7.png"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Samsung Z Fold",
+      "brand": "Samsung",
+      "category": "Điện thoại",
+      "image": "image/zfold.webp",
+      "price": 40990000,
+      "rating": 4.5,
+      "reviews": 66,
+      "description": "Điện thoại màn hình gập thời thượng.",
+      "specifications": {
+        "Màn hình": "7.6\"",
+        "CPU": "Snapdragon",
+        "RAM": "12GB",
+        "ROM": "512GB"
+      },
+      "thumbnails": [
+        "image/zfold.webp",
+        "image/ssgalaxy.webp",
+        "image/samsung.webp"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Xiaomi Flagship",
+      "brand": "Xiaomi",
+      "category": "Điện thoại",
+      "image": "image/xiaomi.webp",
+      "price": 12990000,
+      "rating": 4.4,
+      "reviews": 150,
+      "description": "Hiệu năng cao, giá hợp lý.",
+      "specifications": {
+        "Màn hình": "6.7\"",
+        "CPU": "Snapdragon",
+        "RAM": "12GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/xiaomi.webp",
+        "image/xiaomi1.webp",
+        "image/galaxy.webp"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Xiaomi Midrange",
+      "brand": "Xiaomi",
+      "category": "Điện thoại",
+      "image": "image/xiaomi1.webp",
+      "price": 7990000,
+      "rating": 4.3,
+      "reviews": 92,
+      "description": "Cấu hình cân đối, pin trâu.",
+      "specifications": {
+        "Màn hình": "6.5\"",
+        "CPU": "MediaTek",
+        "RAM": "8GB",
+        "ROM": "128GB"
+      },
+      "thumbnails": [
+        "image/xiaomi1.webp",
+        "image/xiaomi.webp",
+        "image/galaxy.webp"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Galaxy A Series",
+      "brand": "Samsung",
+      "category": "Điện thoại",
+      "image": "image/samsung.webp",
+      "price": 6990000,
+      "rating": 4.2,
+      "reviews": 73,
+      "description": "Thiết kế đẹp, camera ổn.",
+      "specifications": {
+        "Màn hình": "6.4\"",
+        "CPU": "Exynos",
+        "RAM": "6GB",
+        "ROM": "128GB"
+      },
+      "thumbnails": [
+        "image/samsung.webp",
+        "image/ssgalaxy.webp",
+        "image/ssj7.png"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Galaxy J7",
+      "brand": "Samsung",
+      "category": "Điện thoại",
+      "image": "image/ssj7.png",
+      "price": 3490000,
+      "rating": 4.0,
+      "reviews": 45,
+      "description": "Máy cơ bản, giá rẻ.",
+      "specifications": {
+        "Màn hình": "5.5\"",
+        "CPU": "Exynos",
+        "RAM": "3GB",
+        "ROM": "32GB"
+      },
+      "thumbnails": [
+        "image/ssj7.png",
+        "image/samsung.webp",
+        "image/ssgalaxy.webp"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "MacBook Pro 14\"",
+      "brand": "Apple",
+      "category": "Máy tính",
+      "image": "image/maytinh1.webp",
+      "price": 45990000,
+      "rating": 4.8,
+      "reviews": 64,
+      "description": "MacBook Pro 14 inch với chip M3 Pro mạnh mẽ, màn hình Liquid Retina XDR tuyệt đẹp. Hiệu năng vượt trội cho công việc chuyên nghiệp, thiết kế mỏng nhẹ, pin trâu.",
+      "screenSize": "14.2 inch",
+      "chip": "Apple M3 Pro",
+      "ram": "16GB",
+      "storageOptions": [
+        {"size": "512GB SSD", "price": 45990000},
+        {"size": "1TB SSD", "price": 51990000},
+        {"size": "2TB SSD", "price": 61990000}
       ],
-      "answer": 3
-    },
-    {
-      "id": "10",
-      "courseId": "1700000000000",
-      "question": "Trong DOM, querySelector trả về?",
-      "options": [
-        "Tất cả phần tử",
-        "Phần tử đầu tiên khớp selector",
-        "HTMLCollection",
-        "NodeList"
+      "colors": [
+        {"name": "Space Gray", "code": "#8E8E93", "image": "image/maytinh1.webp"},
+        {"name": "Silver", "code": "#F2F2F7", "image": "image/maytinh2.webp"}
       ],
-      "answer": 1
-    },
-    {
-      "id": "11",
-      "courseId": "1700000000001",
-      "question": "Thẻ HTML nào tạo liên kết?",
-      "options": [
-        "<link>",
-        "<a>",
-        "<href>",
-        "<url>"
+      "specifications": {
+        "Màn hình": "14.2\" Liquid Retina XDR, 3024 x 1964 pixels, 254 ppi",
+        "CPU": "Apple M3 Pro 10-core",
+        "GPU": "Apple M3 Pro 16-core",
+        "RAM": "16GB LPDDR5",
+        "ROM": "512GB/1TB/2TB SSD",
+        "Pin": "70Wh, Sạc nhanh 140W",
+        "Hệ điều hành": "macOS Sonoma",
+        "Kết nối": "Wi-Fi 6E, Bluetooth 5.3, Thunderbolt 4, HDMI, SDXC",
+        "Kích thước": "312.6 x 221.2 x 15.5 mm",
+        "Trọng lượng": "1.6kg",
+        "Màu sắc": "Space Gray, Silver",
+        "Cổng": "3x Thunderbolt 4, HDMI, SDXC, 3.5mm"
+      },
+      "thumbnails": [
+        "image/maytinh1.webp",
+        "image/maytinh2.webp",
+        "image/maytinh3.webp"
       ],
-      "answer": 1
-    },
-    {
-      "id": "12",
-      "courseId": "1700000000001",
-      "question": "Thuộc tính CSS thay đổi màu chữ?",
-      "options": [
-        "font-size",
-        "color",
-        "background-color",
-        "text-decoration"
+      "features": [
+        "Chip M3 Pro mạnh mẽ, hiệu năng vượt trội",
+        "Màn hình Liquid Retina XDR 14.2 inch",
+        "Thiết kế mỏng nhẹ, chỉ 1.6kg",
+        "Pin trâu, dùng cả ngày",
+        "Hệ thống tản nhiệt hiệu quả",
+        "Cổng kết nối đa dạng",
+        "Touch ID bảo mật cao",
+        "Magic Keyboard và Trackpad lớn"
       ],
-      "answer": 1
+      "warranty": "12 tháng bảo hành chính hãng",
+      "accessories": [
+        "Adapter sạc 140W USB-C",
+        "Cáp sạc USB-C",
+        "Tài liệu hướng dẫn"
+      ]
     },
     {
-      "id": "13",
-      "courseId": "1700000000001",
-      "question": "Thẻ <img> cần thuộc tính nào bắt buộc?",
-      "options": [
-        "href",
-        "alt",
-        "id",
-        "src"
-      ],
-      "answer": 3
+      "id": 12,
+      "name": "MacBook Air",
+      "brand": "Apple",
+      "category": "Máy tính",
+      "image": "image/maytinh2.webp",
+      "price": 26990000,
+      "rating": 4.7,
+      "reviews": 88,
+      "description": "Mỏng nhẹ, pin lâu.",
+      "specifications": {
+        "Màn hình": "13\"",
+        "CPU": "Apple Silicon",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/maytinh2.webp",
+        "image/maytinh1.webp",
+        "image/maytinh4.webp"
+      ]
     },
     {
-      "id": "14",
-      "courseId": "1700000000001",
-      "question": "Thẻ nào tạo bảng trong HTML?",
-      "options": [
-        "<div>",
-        "<grid>",
-        "<section>",
-        "<table>"
-      ],
-      "answer": 3
+      "id": 13,
+      "name": "Laptop Văn phòng",
+      "brand": "Dell",
+      "category": "Máy tính",
+      "image": "image/maytinh3.webp",
+      "price": 15990000,
+      "rating": 4.3,
+      "reviews": 52,
+      "description": "Phục vụ nhu cầu học tập, làm việc.",
+      "specifications": {
+        "Màn hình": "15.6\"",
+        "CPU": "Intel i5",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/maytinh3.webp",
+        "image/maytinh5.webp",
+        "image/maytinh6.webp"
+      ]
     },
     {
-      "id": "15",
-      "courseId": "1700000000001",
-      "question": "CSS selector '.menu li a' chọn gì?",
-      "options": [
-        "Li trong a",
-        "Class menu",
-        "Thẻ a trong li của class menu",
-        "Tất cả a"
-      ],
-      "answer": 2
+      "id": 14,
+      "name": "Laptop Gaming",
+      "brand": "Asus",
+      "category": "Máy tính",
+      "image": "image/maytinh4.webp",
+      "price": 28990000,
+      "rating": 4.5,
+      "reviews": 40,
+      "description": "Card rời, tản nhiệt tốt.",
+      "specifications": {
+        "Màn hình": "16\"",
+        "CPU": "Intel i7",
+        "RAM": "16GB",
+        "ROM": "512GB"
+      },
+      "thumbnails": [
+        "image/maytinh4.webp",
+        "image/maytinh7.webp",
+        "image/maytinh8.webp"
+      ]
     },
     {
-      "id": "16",
-      "courseId": "1700000000001",
-      "question": "Thuộc tính CSS nào làm chữ in đậm?",
-      "options": [
-        "font-style",
-        "text-decoration",
-        "bold",
-        "font-weight"
-      ],
-      "answer": 3
+      "id": 15,
+      "name": "Laptop Học sinh",
+      "brand": "HP",
+      "category": "Máy tính",
+      "image": "image/maytinh5.webp",
+      "price": 9990000,
+      "rating": 4.2,
+      "reviews": 37,
+      "description": "Giá tốt, ổn định.",
+      "specifications": {
+        "Màn hình": "14\"",
+        "CPU": "Intel i3",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/maytinh5.webp",
+        "image/maytinh6.webp",
+        "image/maytinh7.webp"
+      ]
     },
     {
-      "id": "17",
-      "courseId": "1700000000001",
-      "question": "Flexbox dùng thuộc tính nào để căn ngang?",
-      "options": [
-        "align-items",
-        "display",
-        "position",
-        "justify-content"
-      ],
-      "answer": 3
+      "id": 16,
+      "name": "Laptop Đồ họa",
+      "brand": "Lenovo",
+      "category": "Máy tính",
+      "image": "image/maytinh6.webp",
+      "price": 32990000,
+      "rating": 4.6,
+      "reviews": 29,
+      "description": "Màn hình chuẩn màu, GPU mạnh.",
+      "specifications": {
+        "Màn hình": "15.6\"",
+        "CPU": "Intel i7",
+        "RAM": "32GB",
+        "ROM": "1TB"
+      },
+      "thumbnails": [
+        "image/maytinh6.webp",
+        "image/maytinh4.webp",
+        "image/maytinh8.webp"
+      ]
     },
     {
-      "id": "18",
-      "courseId": "1700000000001",
-      "question": "Thuộc tính nào để căn giữa text?",
-      "options": [
-        "vertical-align",
-        "align",
-        "justify",
-        "text-align"
-      ],
-      "answer": 3
+      "id": 17,
+      "name": "Laptop Siêu mỏng",
+      "brand": "Acer",
+      "category": "Máy tính",
+      "image": "image/maytinh7.webp",
+      "price": 18990000,
+      "rating": 4.4,
+      "reviews": 33,
+      "description": "Thiết kế mỏng nhẹ, thời trang.",
+      "specifications": {
+        "Màn hình": "13.3\"",
+        "CPU": "Intel i5",
+        "RAM": "8GB",
+        "ROM": "256GB"
+      },
+      "thumbnails": [
+        "image/maytinh7.webp",
+        "image/maytinh2.webp",
+        "image/maytinh8.webp"
+      ]
     },
     {
-      "id": "19",
-      "courseId": "1700000000001",
-      "question": "Trong HTML5, thẻ nào mang ý nghĩa semantic?",
-      "options": [
-        "<div>",
-        "<span>",
-        "<header>",
-        "<b>"
-      ],
-      "answer": 2
+      "id": 18,
+      "name": "Laptop Doanh nhân",
+      "brand": "Dell",
+      "category": "Máy tính",
+      "image": "image/maytinh8.webp",
+      "price": 24990000,
+      "rating": 4.5,
+      "reviews": 22,
+      "description": "Bền bỉ, pin trâu.",
+      "specifications": {
+        "Màn hình": "14\"",
+        "CPU": "Intel i5",
+        "RAM": "16GB",
+        "ROM": "512GB"
+      },
+      "thumbnails": [
+        "image/maytinh8.webp",
+        "image/maytinh5.webp",
+        "image/maytinh6.webp"
+      ]
     },
     {
-      "id": "20",
-      "courseId": "1700000000001",
-      "question": "Thuộc tính CSS nào để thay đổi nền?",
-      "options": [
-        "color",
-        "border",
-        "fill",
-        "background-color"
-      ],
-      "answer": 3
-    }
-  ],
-  "users": [
-    {
-      "id": "1",
-      "email": "student1@example.com",
-      "password": "123456",
-      "fullname": "Nguyen Van A"
+      "id": 19,
+      "name": "TV 4K 55\"",
+      "brand": "Samsung",
+      "category": "TV",
+      "image": "image/tv.webp",
+      "price": 9990000,
+      "rating": 4.4,
+      "reviews": 31,
+      "description": "Smart TV 4K sắc nét.",
+      "specifications": {
+        "Kích thước": "55\"",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv1.webp",
+        "image/tv2.webp",
+        "image/tv4.webp"
+      ]
     },
     {
-      "id": "2",
-      "email": "teacher1@example.com",
-      "password": "abcdef",
-      "fullname": "Tran Thi B"
+      "id": 20,
+      "name": "TV 4K 65\"",
+      "brand": "LG",
+      "category": "TV",
+      "image": "image/tv1.webp",
+      "price": 14990000,
+      "rating": 4.5,
+      "reviews": 27,
+      "description": "Âm thanh sống động.",
+      "specifications": {
+        "Kích thước": "65\"",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv1.webp",
+        "image/tv3.avif",
+        "image/tv5.webp"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "TV QLED",
+      "brand": "Samsung",
+      "category": "TV",
+      "image": "image/tv2.webp",
+      "price": 18990000,
+      "rating": 4.6,
+      "reviews": 35,
+      "description": "Màu sắc rực rỡ, độ tương phản cao.",
+      "specifications": {
+        "Công nghệ": "QLED",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv2.webp",
+        "image/tv4.webp",
+        "image/tv6.webp"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "TV OLED",
+      "brand": "LG",
+      "category": "TV",
+      "image": "image/tv3.avif",
+      "price": 25990000,
+      "rating": 4.7,
+      "reviews": 18,
+      "description": "Đen sâu tuyệt đối.",
+      "specifications": {
+        "Công nghệ": "OLED",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv3.avif",
+        "image/tv5.webp",
+        "image/tv6.webp"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "TV 50\"",
+      "brand": "Sony",
+      "category": "TV",
+      "image": "image/tv4.webp",
+      "price": 7990000,
+      "rating": 4.2,
+      "reviews": 22,
+      "description": "Kích thước vừa, giá tốt.",
+      "specifications": {
+        "Kích thước": "50\"",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv4.webp",
+        "image/tv5.webp",
+        "image/tv.webp"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "TV 43\"",
+      "brand": "TCL",
+      "category": "TV",
+      "image": "image/tv5.webp",
+      "price": 5990000,
+      "rating": 4.1,
+      "reviews": 19,
+      "description": "Phù hợp phòng nhỏ.",
+      "specifications": {
+        "Kích thước": "43\"",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv5.webp",
+        "image/tv6.webp",
+        "image/tv2.webp"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "TV 75\"",
+      "brand": "Samsung",
+      "category": "TV",
+      "image": "image/tv6.webp",
+      "price": 25990000,
+      "rating": 4.5,
+      "reviews": 15,
+      "description": "Màn hình lớn cho phòng khách.",
+      "specifications": {
+        "Kích thước": "75\"",
+        "Độ phân giải": "4K"
+      },
+      "thumbnails": [
+        "image/tv6.webp",
+        "image/tv5.webp",
+        "image/tv1.webp"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Màn hình 24\"",
+      "brand": "Dell",
+      "category": "Phụ kiện",
+      "image": "image/mh1.webp",
+      "price": 2590000,
+      "rating": 4.3,
+      "reviews": 41,
+      "description": "Full HD, 75Hz.",
+      "specifications": {
+        "Kích thước": "24\"",
+        "Tần số quét": "75Hz"
+      },
+      "thumbnails": [
+        "image/mh1.webp",
+        "image/mh2.webp",
+        "image/mh3.webp"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Màn hình 27\"",
+      "brand": "LG",
+      "category": "Phụ kiện",
+      "image": "image/mh2.webp",
+      "price": 3990000,
+      "rating": 4.4,
+      "reviews": 28,
+      "description": "2K, 75Hz.",
+      "specifications": {
+        "Kích thước": "27\"",
+        "Độ phân giải": "2K"
+      },
+      "thumbnails": [
+        "image/mh2.webp",
+        "image/mh1.webp",
+        "image/mh4.webp"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Màn hình 32\" Gaming",
+      "brand": "Asus",
+      "category": "Phụ kiện",
+      "image": "image/mh3.webp",
+      "price": 5490000,
+      "rating": 4.5,
+      "reviews": 23,
+      "description": "144Hz, cong nhẹ.",
+      "specifications": {
+        "Kích thước": "32\"",
+        "Tần số quét": "144Hz"
+      },
+      "thumbnails": [
+        "image/mh3.webp",
+        "image/mh2.webp",
+        "image/mh4.webp"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Màn hình 34\" Ultrawide",
+      "brand": "Samsung",
+      "category": "Phụ kiện",
+      "image": "image/mh4.webp",
+      "price": 8990000,
+      "rating": 4.6,
+      "reviews": 12,
+      "description": "Tỉ lệ 21:9, làm việc đa nhiệm.",
+      "specifications": {
+        "Kích thước": "34\"",
+        "Tỉ lệ": "21:9"
+      },
+      "thumbnails": [
+        "image/mh4.webp",
+        "image/mh3.webp",
+        "image/mh2.webp"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "TV 8K 65\" Cao cấp",
+      "brand": "Sony",
+      "category": "TV",
+      "image": "image/banner5.webp",
+      "price": 49990000,
+      "rating": 4.7,
+      "reviews": 9,
+      "description": "Độ phân giải 8K siêu nét.",
+      "specifications": {
+        "Kích thước": "65\"",
+        "Độ phân giải": "8K"
+      },
+      "thumbnails": [
+        "image/banner5.webp",
+        "image/tv1.webp",
+        "image/tv2.webp"
+      ]
     }
   ]
 }
